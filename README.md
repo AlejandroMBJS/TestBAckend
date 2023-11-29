@@ -7,6 +7,11 @@ Para poder probar correr el siguiente comando
 pip install -r requirements.txt
 ```
 
+## Correr app
+```bash
+uvicorn main:app 
+```
+
 ## Autenticación y Tokens
 
 Para acceder a los endpoints de la API, se requiere proporcionar un token de autenticación en la cabecera de la solicitud HTTP.
